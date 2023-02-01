@@ -48,6 +48,16 @@ public class CacheConfiguration {
             createCache(cm, org.ujar.jh.petclinic.ngmin.domain.User.class.getName());
             createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Authority.class.getName());
             createCache(cm, org.ujar.jh.petclinic.ngmin.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Vets.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Vets.class.getName() + ".specialties");
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Specialties.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Specialties.class.getName() + ".vets");
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Types.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Owners.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Owners.class.getName() + ".pets");
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Pets.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Pets.class.getName() + ".visits");
+            createCache(cm, org.ujar.jh.petclinic.ngmin.domain.Visits.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
