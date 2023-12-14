@@ -1,1 +1,1 @@
-org.springframework.test.context.ContextCustomizerFactory = org.ujar.jh.petclinic.ngmin.config.TestContainersSpringContextCustomizerFactory
+org.springframework.test.context.ContextCustomizerFactory = dev.knowhowto.jh.petclinic.ngmin.config.TestContainersSpringContextCustomizerFactory
