@@ -33,7 +33,7 @@
     "microfrontends": [],
     "nativeLanguage": "en",
     "otherModules": [],
-    "packageName": "org.ujar.jh.petclinic.ngmin",
+    "packageName": "dev.knowhowto.jh.petclinic.ngmin",
     "pages": [],
     "prodDatabaseType": "postgresql",
     "reactive": false,
